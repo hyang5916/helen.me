@@ -9,7 +9,7 @@ import Gallery from './components/Gallery';
   
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route path='/' exact component={About} />
@@ -18,6 +18,7 @@ function App() {
         <Route path='/gallery' component={Gallery} />
       </Switch>
     </Router>
+    
   );
 }
   

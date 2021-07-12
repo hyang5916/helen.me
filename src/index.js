@@ -11,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App />
+      <About />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

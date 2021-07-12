@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #ffcaca;
 }
 
 .App-logo {
@@ -29,7 +30,7 @@
   /* align-items: center;
   justify-content: center; */
   font-size: calc(1.5vmin);
-  color: #bdbdbd;
+  color: #bdbdbdc0;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -47,7 +48,7 @@
 .cynd {
   position:absolute;
   top: 45vmin;
-  left: 75vmin;
+  right: 15vmin;
   height: 10vmin;
 }
 
@@ -58,7 +59,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(2vmin);
-  color: #bdbdbd;
+  color: #bdbdbdc0;
   letter-spacing: .15em;
   margin-left: 10vmin;
   margin-right: 10vmin;
@@ -82,7 +83,7 @@
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 25% }
+  to { width: 30% }
 }
 
 /* The typewriter cursor effect */

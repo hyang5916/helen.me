@@ -2,6 +2,7 @@ import React from "react";
 import { AppBar, Toolbar, Typography, makeStyles, Button } from "@material-ui/core";
 import { Link as RouterLink } from "react-router-dom";
 import { red } from "@material-ui/core/colors";
+import pdf from "../Helen_Yang_Resume.pdf";
 
 const useStyles = makeStyles(() => ({
     header:{
@@ -18,16 +19,6 @@ const useStyles = makeStyles(() => ({
 }))
 
 const headersData = [
-    {
-        label: "About",
-        href: "/about",
-    },
-
-    {
-        label: "Resume",
-        href: "/resume",
-    },
-
     {
         label: "Projects",
         href: "/projects",
@@ -67,6 +58,8 @@ function Header() {
     };    
     const displayDesktop = () => {
       return <Toolbar>
+          <Button to="/about" component={RouterLink} className={menuButton}>About</Button>
+          <Button href={pdf} target="_blank" className={menuButton}>Resume</Button>
           {makeButtons()}
       </Toolbar>;
     };

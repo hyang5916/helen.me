@@ -15,6 +15,7 @@ function Projects() {
           <div className="text">
               <h2>Here are some projects that I've worked on in the past! </h2>
           </div>
+          
         </header>
         <footer className="App-footer">
           <p>

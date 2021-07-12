@@ -6,11 +6,11 @@ import pdf from "../Helen_Yang_Resume.pdf";
 
 const useStyles = makeStyles(() => ({
     header:{
-        backgroundColor: "#ffffff",
+        backgroundColor: "#ffcaca",
         boxShadow: "none",
     },
     menuButton:{
-        color: "#F59F9F",
+        color: "#000000c0",
         fontFamily: "Raleway",
         fontSize: "large",
         textTransform: "lowercase",

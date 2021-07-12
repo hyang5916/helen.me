@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/helen.me/static/css/main.5ecc934a.chunk.css",
+    "main.js": "/helen.me/static/js/main.c26f335e.chunk.js",
+    "main.js.map": "/helen.me/static/js/main.c26f335e.chunk.js.map",
+    "runtime-main.js": "/helen.me/static/js/runtime-main.5191ade9.js",
+    "runtime-main.js.map": "/helen.me/static/js/runtime-main.5191ade9.js.map",
+    "static/js/2.78fd2e05.chunk.js": "/helen.me/static/js/2.78fd2e05.chunk.js",
+    "static/js/2.78fd2e05.chunk.js.map": "/helen.me/static/js/2.78fd2e05.chunk.js.map",
+    "static/js/3.11990115.chunk.js": "/helen.me/static/js/3.11990115.chunk.js",
+    "static/js/3.11990115.chunk.js.map": "/helen.me/static/js/3.11990115.chunk.js.map",
+    "index.html": "/helen.me/index.html",
+    "static/css/main.5ecc934a.chunk.css.map": "/helen.me/static/css/main.5ecc934a.chunk.css.map",
+    "static/js/2.78fd2e05.chunk.js.LICENSE.txt": "/helen.me/static/js/2.78fd2e05.chunk.js.LICENSE.txt",
+    "static/media/cat-in-black-silhouette.89337c08.svg": "/helen.me/static/media/cat-in-black-silhouette.89337c08.svg",
+    "static/media/cynd.20fca9c1.png": "/helen.me/static/media/cynd.20fca9c1.png",
+    "static/media/helenyang.3843a281.png": "/helen.me/static/media/helenyang.3843a281.png",
+    "static/media/like.b16558c9.svg": "/helen.me/static/media/like.b16558c9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5191ade9.js",
+    "static/js/2.78fd2e05.chunk.js",
+    "static/css/main.5ecc934a.chunk.css",
+    "static/js/main.c26f335e.chunk.js"
+  ]
+}

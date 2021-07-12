@@ -2,14 +2,14 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
 import Gallery from './components/Gallery';
   
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/'>
       <Header />
       <Switch>
         <Route path='/' exact component={About} />

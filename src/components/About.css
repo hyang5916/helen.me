@@ -132,7 +132,7 @@
   }
 
 
-@media (min-width: 500px) and (max-width:800px){
+@media (min-width: 300px) and (max-width:1000px){
     .App-name {
       max-height: auto;
       pointer-events: none;
@@ -144,12 +144,12 @@
     }
   
     .me{
-      max-height: auto;
+      max-height: 40vmin;
       pointer-events: none;
       position:absolute;
-      top: 12vmin;
-      left: 15vmin;
-      max-width: 50%;
+      top: 18vmin;
+      left: 18vmin;
+      max-width: 100%;
     }
     
     /* @media (prefers-reduced-motion: no-preference) {
@@ -164,7 +164,7 @@
       position:relative;
       min-height: 100%;
       width: 100%;
-      padding-bottom: 100vmin;
+      padding-bottom: 80vmin;
       margin-bottom: auto;
       display: flex;
       flex-direction: column;
@@ -252,7 +252,7 @@
   }
 
 
-  @media (min-width: 800px) and (max-width:1200px){
+  @media (min-width: 1000px) and (max-width:1200px){
     .App-name {
       max-height: 40vmin;
       pointer-events: none;
@@ -284,7 +284,7 @@
       position:relative;
       min-height: 100%;
       width: 100%;
-      padding-bottom: 25vmin;
+      padding-bottom: 15vmin;
       margin-bottom: auto;
       display: flex;
       flex-direction: column;

@@ -1,6 +1,11 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: left;
     background-color: #ffffff;
+    vertical-align: center;
+    min-height: 100vh;
   }
   
   .App-logo {
@@ -9,11 +14,22 @@
   }
   
   .App-name {
-    height: 40vmin;
+    max-height: 40vmin;
     pointer-events: none;
     position:absolute;
     top: 10vmin;
     left: 10vmin;
+    max-width: 100%;
+    
+  }
+
+  .me{
+    max-height: 40vmin;
+    pointer-events: none;
+    position:absolute;
+    top: 12vh;
+    left: 45vw;
+    max-width: 100%;
   }
   
   /* @media (prefers-reduced-motion: no-preference) {
@@ -24,14 +40,21 @@
   
   .App-header {
     background-color: #ffffff;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    position:relative;
+    min-height: 100%;
+    width: 100%;
+    /* padding-bottom: 6rem; */
+    /* margin-bottom: auto; */
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     font-size: calc(1.5vmin);
     color: #000000c0;
     font-family: 'Raleway', sans-serif;
+    /* flex: 1 1 auto; */
+
   }
   
   .App-footer {
@@ -41,15 +64,22 @@
     align-items: center;
     justify-content: center;
     font-size: calc(3px + 2vmin);
+    /* position: absolute; */
+    width: 100vw;
+    left:0;
+    bottom: 0;
+    padding-top: 2vh;
+    margin-top:auto;
     /* font-weight: bold; */
     font-family: 'Raleway', sans-serif;
   }
   
   .cynd {
     position:absolute;
-    top: 45vmin;
-    right: 15vmin;
+    top: 40vm;
+    right: 15vm;
     height: 10vmin;
+    max-width: 10%;
   }
   
   
@@ -71,11 +101,14 @@
     color: #7f7296;
     border-right: .12em solid #ffcaca; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
+    word-wrap: break-word;
     margin: auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     position:absolute;
-    top: 53vmin;
-    left: 12vmin;
+    /* top: 48vh;
+    left: 47vw; */
+    top: 53 vmin;
+    left: 12 vmin;
     font-size: calc(3vmin);
     font-weight:bolder;
     animation: 
@@ -86,7 +119,7 @@
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 30% }
+    to { width: 32% }
   }
   
   /* The typewriter cursor effect */

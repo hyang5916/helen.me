@@ -2,7 +2,8 @@ import React from 'react';
 // import Text from 'react-native';
 import { Link as RouterLink } from "react-router-dom";
 import helenyang from '/Users/helenyang/Desktop/helens-web/src/helenyang.png'
-import cynd from '../cynd.png'
+import cynd from '../cynd.png';
+import chik from '../chik.png';
 import './About.css';
 import cat from '/Users/helenyang/Desktop/helens-web/src/cat-in-black-silhouette.svg';
 import heart from '/Users/helenyang/Desktop/helens-web/src/like.svg';
@@ -46,6 +47,7 @@ function About() {
             </h1>
           </div>
           <div>
+          <img src={chik} className="chik" alt="logo" />
           <img src={cynd} className="cynd" alt="logo" />
           </div>
         </header>

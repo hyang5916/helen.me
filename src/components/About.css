@@ -8,6 +8,7 @@
     min-height: 100vh;
   }
   
+  @media (min-width: 1200px) {
   .App-logo {
     height: 3vmin;
     pointer-events: none;
@@ -28,7 +29,7 @@
     pointer-events: none;
     position:absolute;
     top: 12vh;
-    left: 45vw;
+    left: 55vw;
     max-width: 100%;
   }
   
@@ -45,7 +46,7 @@
     min-height: 100%;
     width: 100%;
     /* padding-bottom: 6rem; */
-    /* margin-bottom: auto; */
+    margin-bottom: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +54,7 @@
     font-size: calc(1.5vmin);
     color: #000000c0;
     font-family: 'Raleway', sans-serif;
-    /* flex: 1 1 auto; */
+    flex: 1 1 auto;
 
   }
   
@@ -68,7 +69,7 @@
     width: 100vw;
     left:0;
     bottom: 0;
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     margin-top:auto;
     /* font-weight: bold; */
     font-family: 'Raleway', sans-serif;
@@ -86,13 +87,14 @@
   .about {
     position:absolute;
     top: 58vmin;
+    left: 0vmin;
     align-items: left;
-    justify-content: left;
+    justify-content: center;
     font-size: calc(2vmin);
     color: #000000c0;
     letter-spacing: .15em;
-    margin-left: 12vmin;
-    margin-right: 12vmin;
+    /* margin-left: 12vmin;
+    margin-right: 12vmin; */
   }
 
   .typewriter h1 {
@@ -107,8 +109,8 @@
     position:absolute;
     /* top: 48vh;
     left: 47vw; */
-    top: 53 vmin;
-    left: 12 vmin;
+    top: 53vmin;
+    left: 12vmin;
     font-size: calc(3vmin);
     font-weight:bolder;
     animation: 
@@ -127,5 +129,244 @@
     from, to { border-color: transparent }
     50% { border-color: #ffcaca; }
   }
+  }
+
+
+@media (min-width: 500px) and (max-width:800px){
+    .App-name {
+      max-height: auto;
+      pointer-events: none;
+      position:absolute;
+      top: 63vmin;
+      left: 8vmin;
+      max-width: 100%;
+      
+    }
   
+    .me{
+      max-height: auto;
+      pointer-events: none;
+      position:absolute;
+      top: 12vmin;
+      left: 15vmin;
+      max-width: 50%;
+    }
+    
+    /* @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    } */
+    
+    .App-header {
+      background-color: #ffffff;
+      /* min-height: 100vh; */
+      position:relative;
+      min-height: 100%;
+      width: 100%;
+      padding-bottom: 100vmin;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(1.5vmin);
+      color: #000000c0;
+      font-family: 'Raleway', sans-serif;
+      flex: 1 1 auto;
+  
+    }
+    
+    .App-footer {
+      background-color: #ffcaca;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(3px + 2vmin);
+      /* position: absolute; */
+      width: 100vw;
+      left:0;
+      bottom: 0;
+      /* padding-top: 2vh; */
+      margin-top:auto;
+      /* font-weight: bold; */
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .cynd {
+      position:absolute;
+      top: 40vm;
+      right: 15vm;
+      height: 10vmin;
+      max-width: 10%;
+    }
+    
+    
+    .about {
+      position:absolute;
+      top: 110vmin;
+      left: 0vmin;
+      align-items: left;
+      justify-content: center;
+      font-size: calc(2vmin);
+      color: #000000c0;
+      letter-spacing: .15em;
+      /* margin-left: 12vmin;
+      margin-right: 12vmin; */
+      /* flex: 0 0 auto; */
+    }
+  
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      display: inline;
+      color: #7f7296;
+      border-right: .12em solid #ffcaca; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      word-wrap: break-word;
+      margin: auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      position:absolute;
+      /* top: 48vh;
+      left: 47vw; */
+      top: 105vmin;
+      left: 10vmin;
+      font-size: calc(3vmin);
+      font-weight:bolder;
+      animation: 
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 32% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #ffcaca; }
+    }
+  }
+
+
+  @media (min-width: 800px) and (max-width:1200px){
+    .App-name {
+      max-height: 40vmin;
+      pointer-events: none;
+      position:absolute;
+      top: 10vmin;
+      left: 5vmin;
+      max-width: 100%;
+      
+    }
+  
+    .me{
+      max-height: 40vmin;
+      pointer-events: none;
+      position:absolute;
+      top: 12vh;
+      left: 62vw;
+      max-width: 100%;
+    }
+    
+    /* @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    } */
+    
+    .App-header {
+      background-color: #ffffff;
+      /* min-height: 100vh; */
+      position:relative;
+      min-height: 100%;
+      width: 100%;
+      padding-bottom: 25vmin;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(1.5vmin);
+      color: #000000c0;
+      font-family: 'Raleway', sans-serif;
+      flex: 1 1 auto;
+  
+    }
+    
+    .App-footer {
+      background-color: #ffcaca;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(3px + 2vmin);
+      /* position: absolute; */
+      width: 100vw;
+      left:0;
+      bottom: 0;
+      /* padding-top: 2vh; */
+      margin-top:auto;
+      /* font-weight: bold; */
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .cynd {
+      position:absolute;
+      top: 40vmin;
+      right: 5vmin;
+      height: auto;
+      max-width: 10%;
+    }
+    
+    
+    .about {
+      position:absolute;
+      top: 55vmin;
+      left: 0vmin;
+      align-items: left;
+      justify-content: center;
+      font-size: calc(2vmin);
+      color: #000000c0;
+      letter-spacing: .15em;
+      /* margin-left: 12vmin;
+      margin-right: 12vmin; */
+    }
+  
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      display: inline;
+      color: #7f7296;
+      border-right: .12em solid #ffcaca; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      word-wrap: break-word;
+      margin: auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      position:absolute;
+      /* top: 48vh;
+      left: 47vw; */
+      top: 50vmin;
+      left: 10vmin;
+      font-size: calc(3vmin);
+      font-weight:bolder;
+      animation: 
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 32% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #ffcaca; }
+    }
+  }
   

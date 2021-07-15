@@ -8,6 +8,9 @@ function Gallery() {
           <div className="Nav">
             <Header />
           </div>
+          <div className="text">
+            <h1>Under construction, check back soon! (´・ω・｀)  </h1>
+          </div>
         </header>
     </div>
     )

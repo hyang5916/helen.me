@@ -28,11 +28,6 @@ const headersData = [
         label: "Gallery",
         href: "/gallery",
     },
-
-    {
-        label: "Contact",
-        href: "/contact",
-    },
 ]
 
 

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
     background-color: #ffffff;
     vertical-align: center;
     min-height: 100vh;
@@ -15,12 +15,12 @@
   }
   
   .App-name {
-    max-height: 40vmin;
+    max-height: auto;
     pointer-events: none;
     position:absolute;
-    top: 10vmin;
-    left: 10vmin;
-    max-width: 100%;
+    top: 10%;
+    left: 10%;
+    max-width: 50%;
     
   }
 
@@ -28,8 +28,8 @@
     max-height: 40vmin;
     pointer-events: none;
     position:absolute;
-    top: 12vh;
-    left: 55vw;
+    top: 14%;
+    left: 55%;
     max-width: 100%;
   }
   
@@ -116,8 +116,8 @@
     position:absolute;
     /* top: 48vh;
     left: 47vw; */
-    top: 53vmin;
-    left: 12vmin;
+    top: 53%;
+    left: 12%;
     font-size: calc(3vmin);
     font-weight:bolder;
     animation: 
@@ -138,14 +138,13 @@
   }
   }
 
-
-@media (min-width: 300px) and (max-width:1000px){
+  @media (min-width: 1000px) and (max-width:1200px){
     .App-name {
-      max-height: auto;
+      max-height: 40vmin;
       pointer-events: none;
       position:absolute;
-      top: 63vmin;
-      left: 8vmin;
+      top: 12%;
+      left: 10%;
       max-width: 100%;
       
     }
@@ -154,8 +153,261 @@
       max-height: 40vmin;
       pointer-events: none;
       position:absolute;
-      top: 18vmin;
-      left: 18vmin;
+      top: 12%;
+      left: 62%;
+      max-width: 100%;
+    }
+    
+    /* @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    } */
+    
+    .App-header {
+      background-color: #ffffff;
+      /* min-height: 100vh; */
+      position:relative;
+      min-height: 100%;
+      width: 100%;
+      padding-bottom: 5vmin;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(1.5vmin);
+      color: #000000c0;
+      font-family: 'Raleway', sans-serif;
+      flex: 1 1 auto;
+  
+    }
+    
+    .App-footer {
+      background-color: #ffcaca;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(3px + 2vmin);
+      /* position: absolute; */
+      width: 100vw;
+      left:0;
+      bottom: 0;
+      /* padding-top: 2vh; */
+      margin-top:auto;
+      /* font-weight: bold; */
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .cynd {
+      position:absolute;
+      top: 40%;
+      right: 3%;
+      height: auto;
+      max-width: 8%;
+    }
+    
+    .chik {
+      position:absolute;
+      top: 20%;
+      right: 1%;
+      height: auto;
+      max-width: 8%;
+    }
+
+    .about {
+      position:absolute;
+      top: 55vmin;
+      left: 0vmin;
+      align-items: left;
+      justify-content: center;
+      font-size: calc(2vmin);
+      color: #000000c0;
+      letter-spacing: .15em;
+      /* margin-left: 12vmin;
+      margin-right: 12vmin; */
+    }
+  
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      display: inline;
+      color: #7f7296;
+      border-right: .12em solid #ffcaca; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      word-wrap: break-word;
+      margin: auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      position:absolute;
+      /* top: 48vh;
+      left: 47vw; */
+      top: 48%;
+      left: 12.5%;
+      font-size: calc(3vmin);
+      font-weight:bolder;
+      animation: 
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 32% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #ffcaca; }
+    }
+  }
+  
+
+
+@media (min-width: 780px) and (max-width:1000px){
+    .App-name {
+      max-height: auto;
+      pointer-events: none;
+      position:absolute;
+      top: 38%;
+      left: 20%;
+      max-width: 100%;
+      
+    }
+  
+    .me{
+      max-height: 40vmin;
+      pointer-events: none;
+      position:absolute;
+      top: 15%;
+      left: 30%;
+      max-width: 100%;
+    }
+    
+    /* @media (prefers-reduced-motion: no-preference) {
+      .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    } */
+    
+    .App-header {
+      background-color: #ffffff;
+      /* min-height: 100vh; */
+      position:relative;
+      min-height: 100%;
+      width: 100%;
+      padding-bottom: 80vmin;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(1.5vmin);
+      color: #000000c0;
+      font-family: 'Raleway', sans-serif;
+      flex: 1 1 auto;
+  
+    }
+    
+    .App-footer {
+      background-color: #ffcaca;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(3px + 2vmin);
+      /* position: absolute; */
+      width: 100vw;
+      left:0;
+      bottom: 0;
+      /* padding-top: 2vh; */
+      margin-top:auto;
+      /* font-weight: bold; */
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .cynd {
+      position:absolute;
+      top: 30%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
+    }
+
+    .chik {
+      position:absolute;
+      top: 15%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
+    }
+    
+    .about {
+      position:absolute;
+      top: 110vmin;
+      left: 0vmin;
+      align-items: left;
+      justify-content: center;
+      font-size: calc(2vmin);
+      color: #000000c0;
+      letter-spacing: .15em;
+      /* margin-left: 12vmin;
+      margin-right: 12vmin; */
+      /* flex: 0 0 auto; */
+    }
+  
+    .typewriter h1 {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      display: inline;
+      color: #7f7296;
+      border-right: .12em solid #ffcaca; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      word-wrap: break-word;
+      margin: auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      position:absolute;
+      /* top: 48vh;
+      left: 47vw; */
+      top: 60%;
+      left: 18%;
+      font-size: calc(3vmin);
+      font-weight:bolder;
+      animation: 
+        typing 2s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 50% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #ffcaca; }
+    }
+  }
+
+  @media (min-width: 675px) and (max-width:780px){
+    .App-name {
+      max-height: auto;
+      pointer-events: none;
+      position:absolute;
+      top: 40%;
+      left: 17%;
+      max-width: 100%;
+      
+    }
+  
+    .me{
+      max-height: 40vmin;
+      pointer-events: none;
+      position:absolute;
+      top: 15%;
+      left: 27%;
       max-width: 100%;
     }
     
@@ -203,23 +455,23 @@
     
     .cynd {
       position:absolute;
-      top: 40vmin;
-      right: 15vmin;
-      height: auto;
-      max-width: 15%;
+      top: 30%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
     }
 
     .chik {
       position:absolute;
-      top: 20vmin;
-      right: 15vmin;
-      height: auto;
-      max-width: 15%;
+      top: 15%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
     }
     
     .about {
       position:absolute;
-      top: 110vmin;
+      top: 65%;
       left: 0vmin;
       align-items: left;
       justify-content: center;
@@ -243,8 +495,8 @@
       position:absolute;
       /* top: 48vh;
       left: 47vw; */
-      top: 105vmin;
-      left: 10vmin;
+      top: 63%;
+      left: 23%;
       font-size: calc(3vmin);
       font-weight:bolder;
       animation: 
@@ -255,7 +507,7 @@
     /* The typing effect */
     @keyframes typing {
       from { width: 0 }
-      to { width: 32% }
+      to { width: 60% }
     }
     
     /* The typewriter cursor effect */
@@ -265,14 +517,13 @@
     }
   }
 
-
-  @media (min-width: 1000px) and (max-width:1200px){
+  @media (min-width: 350px) and (max-width:675px){
     .App-name {
-      max-height: 40vmin;
+      max-height: auto;
       pointer-events: none;
       position:absolute;
-      top: 10vmin;
-      left: 5vmin;
+      top: 30%;
+      left: 14%;
       max-width: 100%;
       
     }
@@ -281,8 +532,8 @@
       max-height: 40vmin;
       pointer-events: none;
       position:absolute;
-      top: 12vh;
-      left: 62vw;
+      top: 10%;
+      left: 25%;
       max-width: 100%;
     }
     
@@ -298,7 +549,7 @@
       position:relative;
       min-height: 100%;
       width: 100%;
-      padding-bottom: 15vmin;
+      padding-bottom: 50vmin;
       margin-bottom: auto;
       display: flex;
       flex-direction: column;
@@ -330,23 +581,23 @@
     
     .cynd {
       position:absolute;
-      top: 40vmin;
-      right: 5vmin;
-      height: auto;
-      max-width: 8%;
-    }
-    
-    .chik {
-      position:absolute;
-      top: 20vmin;
-      right: 5vmin;
-      height: auto;
-      max-width: 8%;
+      top: 30%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
     }
 
+    .chik {
+      position:absolute;
+      top: 15%;
+      right: 15%;
+      height: 0;
+      max-width: 0%;
+    }
+    
     .about {
       position:absolute;
-      top: 55vmin;
+      top: 55%;
       left: 0vmin;
       align-items: left;
       justify-content: center;
@@ -355,6 +606,7 @@
       letter-spacing: .15em;
       /* margin-left: 12vmin;
       margin-right: 12vmin; */
+      /* flex: 0 0 auto; */
     }
   
     .typewriter h1 {
@@ -369,8 +621,8 @@
       position:absolute;
       /* top: 48vh;
       left: 47vw; */
-      top: 50vmin;
-      left: 10vmin;
+      top: 53%;
+      left: 15%;
       font-size: calc(3vmin);
       font-weight:bolder;
       animation: 
@@ -381,7 +633,7 @@
     /* The typing effect */
     @keyframes typing {
       from { width: 0 }
-      to { width: 32% }
+      to { width: 60% }
     }
     
     /* The typewriter cursor effect */
@@ -390,4 +642,3 @@
       50% { border-color: #ffcaca; }
     }
   }
-  

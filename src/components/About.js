@@ -9,6 +9,9 @@ import cat from '/Users/helenyang/Desktop/helens-web/src/cat-in-black-silhouette
 import heart from '/Users/helenyang/Desktop/helens-web/src/like.svg';
 import Header from './Header.js';
 import me from '../me.png';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import IconButton from '@material-ui/core/IconButton';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 var phantom = {
   display: 'block',
@@ -57,6 +60,15 @@ function About() {
             <h2 >
               made with <img src={heart} className="App-logo" alt="logo" /> and <img src={cat} className="App-logo" alt="logo" />
             </h2>
+            <span className="social">
+              <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/helen-yang02', "_blank")}>
+                <LinkedInIcon fontSize="large" className="linkedIn"/>
+              </IconButton>
+              <IconButton aria-label="Github.com" onClick={() => window.open('https://github.com/hyang5916', "_blank")}>
+                <GitHubIcon fontSize="large" className="gitHub"/>
+              </IconButton>
+            </span>
+            
           {/* </div> */}
         </footer>
       </div>

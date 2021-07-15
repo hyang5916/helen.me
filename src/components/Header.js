@@ -68,12 +68,6 @@ function Header() {
           <Button to="/about" component={RouterLink} className={menuButton}>About</Button>
           <Button href={pdf} target="_blank" className={menuButton}>Resume</Button>
           {makeButtons()}
-          <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://www.linkedin.com/in/helen-yang02', "_blank")}>
-            <LinkedInIcon fontSize="large" className={linkedIn}/>
-          </IconButton>
-          <IconButton aria-label="Github.com" onClick={() => window.open('https://www.linkedin.com/in/helen-yang02', "_blank")}>
-            <GitHubIcon fontSize="large" className={github}/>
-          </IconButton>
       </Toolbar>;
     };
     

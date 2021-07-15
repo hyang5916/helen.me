@@ -271,8 +271,10 @@
       pointer-events: none;
       position:absolute;
       top: 38%;
-      left: 24%;
+      left: 21%;
       max-width: 100%;
+      justify-content: center;
+      margin: 0 auto;
       
     }
   
@@ -281,8 +283,10 @@
       pointer-events: none;
       position:absolute;
       top: 15%;
-      left: 36%;
+      left: 33%;
       max-width: 100%;
+      margin: 0 auto;
+      justify-content: center;
     }
     
     /* @media (prefers-reduced-motion: no-preference) {
@@ -370,9 +374,10 @@
       /* top: 48vh;
       left: 47vw; */
       top: 62%;
-      left: 25%;
+      left: 22%;
       font-size: calc(3vmin);
       font-weight:bolder;
+      justify-content: center;
       animation: 
         typing 2s steps(40, end),
         blink-caret .75s step-end infinite;

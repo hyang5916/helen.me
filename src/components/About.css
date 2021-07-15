@@ -370,7 +370,7 @@
       /* top: 48vh;
       left: 47vw; */
       top: 60%;
-      left: 18%;
+      left: 23%;
       font-size: calc(3vmin);
       font-weight:bolder;
       animation: 
@@ -381,7 +381,7 @@
     /* The typing effect */
     @keyframes typing {
       from { width: 0 }
-      to { width: 50% }
+      to { width: 45% }
     }
     
     /* The typewriter cursor effect */
@@ -496,7 +496,7 @@
       /* top: 48vh;
       left: 47vw; */
       top: 63%;
-      left: 23%;
+      left: 19%;
       font-size: calc(3vmin);
       font-weight:bolder;
       animation: 
@@ -533,7 +533,7 @@
       pointer-events: none;
       position:absolute;
       top: 10%;
-      left: 25%;
+      left: 27%;
       max-width: 100%;
     }
     
@@ -621,7 +621,7 @@
       position:absolute;
       /* top: 48vh;
       left: 47vw; */
-      top: 53%;
+      top: 51%;
       left: 15%;
       font-size: calc(3vmin);
       font-weight:bolder;

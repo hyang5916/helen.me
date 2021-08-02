@@ -39,9 +39,10 @@ function About() {
             <h1>developer + ml researcher + musician</h1>
           </div>
           <div className="about">
-            <h1>Hello! I'm Helen, an undergraduate student at MIT double majoring in computer science and cognitive science. 
-              In the past, I've worked on projects in deep learning, full-stack development, bayesian inference, and natural language processing. 
-              Outside of my major, some of my favorite things include  violin performance (I've been 
+            <h1>Hello! I'm Helen, an undergraduate student at MIT majoring in computer science with a minor in cognitive science. 
+              In the past, I've worked on projects in deep learning, full-stack development, Bayesian inference, data science, and natural language processing. 
+              I love researching new tech and working on projects with wide-ranging applications.
+              Outside of my major, some of my favorite things include violin performance (I've been 
               playing for 15 years!), puzzles, fencing (the sport), photography, Pokemon, and hot pot :)
 
             </h1>

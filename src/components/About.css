@@ -571,7 +571,7 @@
       position:relative;
       min-height: 100%;
       width: 100%;
-      padding-bottom: 70vmin;
+      padding-bottom: 90vmin;
       margin-bottom: auto;
       display: flex;
       flex-direction: column;
@@ -697,7 +697,7 @@
       position:relative;
       min-height: 100%;
       width: 100%;
-      padding-bottom: 50vmin;
+      padding-bottom: 85vmin;
       margin-bottom: auto;
       display: flex;
       flex-direction: column;
